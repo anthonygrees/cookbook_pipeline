@@ -37,13 +37,13 @@ pipeline {
           steps {
             echo 'test'
           }
+        }
         stage('Files/Templates') {
           steps {
             echo 'test'
           }
         }
       }
-    }
     }
     stage('Unit Test') {
       parallel {
