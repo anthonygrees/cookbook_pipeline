@@ -44,6 +44,7 @@ pipeline {
         }
       }
     }
+    }
     stage('Unit Test') {
       parallel {
         stage('Syntax Check') {
